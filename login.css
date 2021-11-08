@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.container {
+    display: flex;
+    position: absolute;
+}
+
+.presentation {
+    background-color: white;
+    width: 18rem;
+    height: 24rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(196, 196, 196, 0.22);
+    color: black;
+}
+
+.presentation p {
+    margin: 0rem 8rem 0rem 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 25rem;
+    height: 24rem;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(196, 196, 196, 0.22);
+    backdrop-filter: blur(6px);
+    color: white;
+    justify-content: center;
+    padding: 1.5rem 5rem 0rem 4rem;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: 1px solid white; 
+    padding: 0.5rem;
+    margin: 0.5rem 0rem 1rem 0rem;
+    background: transparent;
+}
+
+.check {
+    margin-top: -1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.check p {
+    margin: 0.3rem 0rem 0.8rem 0.3rem;
+}
+
+button {
+    border: none;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 15.9rem;
+    margin: 1rem 0rem 1rem 0rem;
+    font-weight: bold;
+    font-size: 1.1em;
+    background: white;
+}
+button,
+a {
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.8em;
+}

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 section {
@@ -21,14 +21,14 @@ section {
 
 .bg-second {
     background: white;
-    height: 110vh;
+    height: 105vh;
 }
 
 .program {
     display: flex;
    justify-content: space-evenly;
     align-items: center;
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
 }
 
 .gradient {
@@ -48,7 +48,7 @@ section {
 }
 
 .bg-store {
-    height: 200vh;
+    height: 165vh;
 }
 
 .card-about {
@@ -364,16 +364,13 @@ section h2 {
 .card {
     box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(196, 196, 196, 0.22);  
+    background: rgba(255, 255, 255, 0.1); 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Popins', sans-serif;
 }
-
-
 
 .card 
 h4,
@@ -401,4 +398,16 @@ h5 {
     border-top-right-radius: 0rem;
     width: 14rem;
     height: 3.5rem;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: black;
+    display: flex;
+    height: 10rem;
 }
