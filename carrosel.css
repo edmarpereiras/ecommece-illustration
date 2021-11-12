@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+}
+
+.content {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.navegation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+.bg-store {
+    height: 165vh;
+}
+
+.store {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 12rem;
+    gap: 1rem;
+}
+
+.card {
+    box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Popins', sans-serif;
+}
+
+.card 
+h4,
+h5 {
+    font-size: 1em;
+    color: white;
+    line-height: 2.5;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+
+.info-four {
+    margin-top: 1rem;
+}
+
+
+.card button {
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    width: 14rem;
+    height: 3.5rem;
+}

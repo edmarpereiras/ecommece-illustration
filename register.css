@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
+
 main {
     background: black;
     height: 100vh;
@@ -16,7 +17,6 @@ main {
     align-items: center;
     flex-direction: row;
 }
-
 
 .container {
     display: flex;
@@ -37,18 +37,19 @@ main {
 }
 
 .presentation p {
-    margin: 0rem 8.2rem 0rem 1rem;
+    margin: 0rem 8rem 0rem 1rem;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
     line-height: 1;
 }
+
 
 .formulario {
     display: flex;
     flex-direction: column;
 }
 
-.login {
+.register {
     width: 25rem;
     height: 24rem;
     border-top-right-radius: 8px;
@@ -76,24 +77,12 @@ input {
     background: transparent;
 }
 
-.check {
-    margin-top: -1.1rem;
-    display: flex;
-    align-items: center;
-}
-
-.check p {
-    margin: 0.2rem 0rem 0.8rem 0.3rem;
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 0.8em;
-}
-
 button {
     border: none;
     border-radius: 0.5rem;
     height: 2rem;
     width: 15.9rem;
-    margin: 1rem 0rem 1rem 0rem;
+    margin-bottom: 1.7rem;
     font-weight: bold;
     font-size: 1.1em;
     background: white;
@@ -104,17 +93,10 @@ a {
     font-family: 'Titillium Web', sans-serif;;
 }
 
-.forgot {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8em;
-}
-
 .options {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    margin-top: 2rem;
     font-size: 0.8em;
 }
